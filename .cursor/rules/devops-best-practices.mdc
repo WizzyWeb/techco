@@ -1,0 +1,11 @@
+---
+description: Best practices for deployment and DevOps
+globs: **/*.{yml,md}
+alwaysApply: false
+---
+- Use Git with a structured branch strategy (main, dev, feature/*) to manage code changes effectively.
+- Follow Conventional Commits for commit messages to enable automated changelog generation and semantic versioning.
+- Use Taskfile for automating development and deployment tasks, creating a consistent workflow across the team.
+- Implement CI/CD with GitHub Actions and deploy via Vercel with ISR for fast, incremental updates.
+- Use Supabase Edge Functions for server-side logic, leveraging their scalability and performance benefits.
+- Implement monitoring with Sentry for error tracking and Logflare/Datadog for logging, ensuring visibility into application health and performance.

@@ -1,0 +1,10 @@
+---
+description: Best practices for UI components and styling with Tailwind CSS and Shadcn UI
+globs: **/*.{ts,tsx,css}
+alwaysApply: false
+---
+- Use Tailwind CSS utility classes for styling to maintain consistency and speed up development.
+- Follow Shadcn UI component guidelines to ensure a cohesive design system across your application.
+- Design with a mobile-first approach, using Tailwind's responsive utilities to create adaptable layouts.
+- Use animations sparingly and purposefully, leveraging Tailwind's animation utilities for performance.
+- Incorporate Radix UI primitives for enhanced accessibility features in custom components.

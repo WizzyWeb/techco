@@ -1,0 +1,14 @@
+---
+description: Best practices for Next.js applications and routing
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+- Leverage React Server Components (RSC) for optimized performance by moving data fetching and logic to the server.
+- Minimize 'use client' directives to isolated components to maximize server-side rendering benefits.
+- Use Next.js App Router exclusively for all state changes and routing to leverage its performance optimizations.
+- Implement dynamic imports for large dependencies or components to improve initial load times.
+- Utilize next-safe-action for type-safe server actions to enhance security and maintainability.
+- Optimize for Web Vitals (LCP, CLS, FID) by implementing image optimization, lazy loading, and minimizing layout shifts.
+- Ensure accessibility by using ARIA roles, implementing keyboard navigation, and adhering to WCAG guidelines.
+- Implement structured SEO practices using Next.js metadata API for better search engine rankings.
+- Use Next.js Middleware for edge logic to handle authentication, redirects, and other request modifications.

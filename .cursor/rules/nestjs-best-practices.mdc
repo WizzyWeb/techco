@@ -1,0 +1,11 @@
+---
+description: Best practices for NestJS API development
+globs: **/*.{ts}
+alwaysApply: false
+---
+- Organize your API with a modular architecture, creating one module per main domain or route for better separation of concerns.
+- Use MikroORM for MongoDB interactions, leveraging its type-safe query builder and migrations.
+- Implement global exception handling and guards for authentication/authorization to ensure consistent error responses and security.
+- Use class-validator and Zod for input validation, combining runtime checks with compile-time type safety.
+- Implement JWT-based authentication via Supabase Auth, utilizing its built-in security features.
+- Use interceptors for request management and logging, allowing for centralized request/response processing.

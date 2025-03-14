@@ -1,0 +1,8 @@
+---
+description: Best practices for state management with Zustand and TanStack React Query
+globs: **/*.{ts,tsx}
+alwaysApply: false
+---
+- Use Zustand for client-side state management, leveraging its simplicity and performance for local state.
+- Implement TanStack React Query for server state management, utilizing its caching and refetching capabilities.
+- Minimize global state usage by leveraging server actions and cache when possible, reducing client-side complexity.
