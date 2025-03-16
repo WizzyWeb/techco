@@ -11,7 +11,8 @@ import icon8 from '/public/images/clients/client_logo_9.webp'
 import icon9 from '/public/images/clients/client_logo_10.webp'
 import icon10 from '/public/images/avatar/avatar_7.webp'
 import icon11 from '/public/images/icons/icon_quote.svg'
-import logo from '/public/images/site_logo/site_logo_3.svg'
+import logo from '/public/images/site_logo/site_logo_2.svg'
+import logo2 from '/public/images/site_logo/site_logo_3.svg'
 import cases from '/public/images/case/case_image_4.webp'
 import MobileMenu from '../MobileMenu/MobileMenu'
 import Image from 'next/image';
@@ -46,12 +47,7 @@ const Header = (props) => {
 
     return (
 
-        <header className="site_header site_header_1">
-            <div className="header_top text-center">
-                <div className="container">
-                    <p className="m-0">Subscribe us and receive <b>20% bonus</b> discount on checkout. <Link onClick={ClickHandler} href="/pricing"><u>Learn more</u> <i className="fa-solid fa-angle-right"></i></Link></p>
-                </div>
-            </div>
+        <header className="site_header site_header_2">
             <div className={`header_bottom stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
                 <div className="container">
                     <div className="row align-items-center">
@@ -59,8 +55,8 @@ const Header = (props) => {
                             <div className="site_logo">
                                 <Link onClick={ClickHandler} className="site_link" href="/">
                                     <Image src={logo} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
+                                    <Image src={logo2} alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template" />
                                 </Link>
-                                <div className="badge bg-danger-subtle text-danger">We’re Hiring</div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-7 col-2">
@@ -516,7 +512,7 @@ const Header = (props) => {
                                     </button>
                                 </li>
                                 <li>
-                                    <Link onClick={ClickHandler} className="btn btn-outline-light" href="/pricing">
+                                    <Link onClick={ClickHandler} className="btn btn-primary" href="/pricing">
                                         <span className="btn_label" data-text="Get Started">Get Started</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>

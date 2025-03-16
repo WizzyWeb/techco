@@ -20,35 +20,34 @@ const Hero2 = (props) => {
                     <div className="col-lg-6">
                         <div className="content_wrap">
                             <div className="heading_focus_text has_underline text-white d-inline-flex" style={{ backgroundImage: `url(${'/images/shapes/shape_title_under_line.svg'})` }}>
-                                Perfect Company Solution
+                            🚀 We Help Businesses Succeed in the Digital Age
                             </div>
                             <h1 className="text-white">
                                 We Help Companies in <mark>Digitizing</mark> Their Businesses.
                             </h1>
                             <p>
-                                In today's rapidly evolving digital landscape, staying ahead of the curve is essential for businesses aiming to thrive and succeed.
-                            </p>
+                               In today’s fast-moving digital world, staying ahead is key to growth. At WizzyWeb, we provide cutting-edge solutions to digitize your business and drive success.                            </p>
                             <ul className="step_list text-white unordered_list_block">
-                                <li>Focus on quality first</li>
-                                <li>Get to the market on time</li>
+                                <li>Official Google Partner</li>
+                                <li>Facebook Verified Business</li>
                             </ul>
                             <ul className="btns_group unordered_list p-0 justify-content-start">
                                 <li>
                                     <Link className="btn" href="/contact">
-                                        <span className="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
+                                        <span className="btn_label" data-text="Contact Us Today!">Get Started Today!</span>
                                         <span className="btn_icon">
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <a className="hotline_block" href="tel:+420318568511">
+                                    <a className="hotline_block" href="tel:+918084887530">
                                         <span className="hotline_icon">
                                             <i className="fa-solid fa-phone-volume"></i>
                                         </span>
                                         <span className="hotline_content">
-                                            <small>CONTACT US DAILY</small>
-                                            <strong className="text-white">(+420) 318 568 511</strong>
+                                            <small>Contact Us</small>
+                                            <strong className="text-white">(+91) 808-488-7530</strong>
                                         </span>
                                     </a>
                                 </li>

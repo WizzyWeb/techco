@@ -14,13 +14,12 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div data-bs-theme="dark">
       <Head>
         <title>Techco - IT Solutions & Business Next Js Template</title>
       </Head>
       <Component {...pageProps} />
     </div>
-
   )
 }
 

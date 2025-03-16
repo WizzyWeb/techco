@@ -1,0 +1,10 @@
+---
+description: Best practices for using MongoDB in Next.js applications
+globs: 
+alwaysApply: false
+---
+- Use MongoDB Atlas for managed database services
+- Implement connection pooling to improve performance
+- Use MongoDB's aggregation framework for complex queries
+- Ensure proper indexing to optimize query performance
+- Use environment variables to store database credentials securely
